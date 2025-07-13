@@ -1,0 +1,137 @@
+/* Hearder */  
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+h1,h2{
+    text-align: center;
+}
+
+.info_contact{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.info_mail_tel, .info_adresse_permis{
+    margin:0;
+}
+.infomail a,.infomail i, .info_contact i,.info_contact a, .infoadresse i .infoadresse a, .infopermis i, .infopermis a, .infotel i, .infotel a{
+    line-height: 1.5;
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    text-transform: lowercase;
+    ;
+    
+
+}
+
+
+.profil_gauche{
+    width: 40%;
+}
+
+
+.profil_gauche img{
+    width: 25%;
+    border-radius: 100%;
+    border: 5px solid white;
+}
+
+.profil_gauche img:hover{
+    cursor: zoom-in;
+}
+
+
+
+/*Coter Gauche*/
+
+.gauche{
+    width: 40%;
+    margin-right: 0;
+    padding: 0 40px;
+}
+
+.langues{
+    line-height: 0;
+}
+.competences{
+    line-height: 0;
+  
+}
+.comp_flex, .lang_flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.comp_nom, .lang_nom{
+    font-weight: 600;
+}
+
+.comp_reponse{
+    color: #17abb3;
+}
+
+.comp_reponse, .lang_reponse {
+    margin: 0;
+}
+
+.c_interet li, .qualite li{
+    list-style-type: square;
+}
+
+/*Coter Droite*/
+.droite{
+    width: 100%;
+   
+    /* padding: 0 40px; */
+}
+
+.profil p{
+    text-indent: 30px;
+    text-align: justify;
+    line-height: 1.2;
+    
+}
+
+.forma_flex,.stg_flex, .exp_flex{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+}
+.forma_flex:hover,.stg_flex:hover, .exp_flex:hover{   
+    background-color:rgba(227, 227, 227, 0.8) ;
+    border-left:5px solid #17abb3;
+}
+
+.forma_date, .forma_nom, .stg_nom, .stg_date, .exp_nom, .exp_date{
+    margin: 0;
+}
+
+.forma_date, .stg_date, .exp_date{
+    color: #17abb3;
+}
+
+/* Footer*/
+
+footer i, footer a, footer p{
+    margin-right: 10px;
+    color:white;
+    font-size: small;
+    text-decoration: none;
+}
+footer a{
+    width: 60px;
+}
+
+footer a:hover{
+    
+    opacity: 0.5;
+}
